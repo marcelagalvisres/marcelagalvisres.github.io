@@ -6,9 +6,9 @@
 
 [Project 1 An algorithm to reduce the numer of features in classification using clustering of the categores of categorical predictors](https://marcelagalvisres.github.io/clustcat/)
 
-Experimental results of our method in different datasets from the UCI machine learning repository. 
+In this project I developed an algorithm that reduces the number of dummy variables to consider when working with categorical predictors in classification. The improvement achieves was tested in several real-world datasets from the UCI Machine Learning repository. 
 
-- Compared to having all categorical predictors as un-clustered dummies, we have significantly reduced the complexity of the model (95\% reduction in some cases)
+- We significantly reduced the complexity of the model from **60% to 95% reduction** in the number of dummies to consider
 - Accuracy is preserved or even improved
 
 <img src="images/effect_clust.jpeg?raw=true"/>

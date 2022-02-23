@@ -2,8 +2,7 @@
 
 ---
 
-### About my projects 
-
+### Machine Learning Research - Algorithms
 [Project 1 An algorithm to reduce the number of features in classification using clustering of the categories of categorical predictors](https://marcelagalvisres.github.io/clustcat/)
 
 The project consists of the design of an algorithm that reduces the number of dummy variables to consider when working with categorical predictors in classification. The algorithm was tested in several real-world datasets from the UCI Machine Learning repository. 
@@ -30,6 +29,9 @@ _Figure 2: Accuracy, Unfairness and False Negative Rates for the protected (sex:
 
 
 ---
+## Data Science - Prediction applications
+[Prediction of school dropout in a developing country- How to use Machine Learning to help education authorities target students at risk of dropout]
+
 
 
 

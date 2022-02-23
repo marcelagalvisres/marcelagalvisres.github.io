@@ -5,9 +5,7 @@
 ### Machine Learning Research - Algorithms
 [Project 1 An algorithm to reduce the number of features in classification using clustering of the categories of categorical predictors](https://marcelagalvisres.github.io/clustcat/)
 
-The project consists of the design of an algorithm that reduces the number of dummy variables to consider when working with categorical predictors in classification. The algorithm was tested in several real-world datasets from the UCI Machine Learning repository. 
-
-- We significantly reduced the complexity of the model (**60% to 95% reduction** depending on the dataset) in the number of dummies to consider
+- We significantly reduced the complexity (number of dummies to consider) of the model **60% to 95% reduction**, depending on the dataset
 - Accuracy is preserved or even improved
 - See publication available in [https://doi.org/10.1016/j.eswa.2021.115245/]
 

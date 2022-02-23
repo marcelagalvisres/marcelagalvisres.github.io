@@ -25,6 +25,7 @@ In this project, I desgined an algorithm that enhances the trade-off between acc
 _Figure 2: Accuracy, Unfairness and False Negative Rates for the protected (sex: female) and non-protected (sex: male) group in the Adult dataset using different values of the parameter alpha, compared to the original model_
 <img src="images/Adult_sex.jpeg?raw=true"/> 
 
+
 ---
 
 

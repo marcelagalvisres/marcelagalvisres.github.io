@@ -25,3 +25,4 @@ _Figure 2: Accuracy, Unfairness and False Negative Rates for the protected (sex:
 <img src="images/Adult_sex.jpeg?raw=true"/> 
 
 ---
+## Data Science projects

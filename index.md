@@ -2,30 +2,41 @@
 
 ---
 
-### Category Name 1 
+### About my projects 
 
-[Project 1 Title](/sample_page)
+[Project 1 An algorithm to reduce the numer of features in classification using clustering of the categores of categorical predictors](https://marcelagalvisres.github.io/clustcat/)
+
+Experimental results of our method in different datasets from the UCI machine learning repository. 
+
+\begin{itemize}
+\item Compared to having all categorical predictors as un-clustered dummies, we have significantly reduced the complexity of the model (95\% reduction in some cases)
+\item Accuracy can be preserved or even improved
+\end{itemize}
+
+\begin{table}[]
+\centering
+\caption{Out-of-sample results for the original and the clustered model - Logistic Regression}
+\begin{tabular}{cccc}\hline
+\multicolumn{1}{c}{\multirow{2}{*}{Name}} & \multicolumn{2}{c}{Accuracy ($\%$)} & \multicolumn{1}{c}{\multirow{2}{*}{Relative Complexity   ($\%$)}} \\
+\multicolumn{1}{c}{}                      & Original         & Clustered        & \multicolumn{1}{c}{}                                                  \\ \hline
+\textit{Solar}                            & 83.89            & 82.66            & 29.41                                                                 \\
+\textit{Coil-2000}                        & {\ul 93.32}      & {\ul 93.41}      & 10.20                                                                 \\
+\textit{Nursery}                          & {\ul 100.00}     & {\ul 100.00}     & 38.89                                                                 \\
+\textit{Mushrooms}                        & {\ul 100.00}     & {\ul 99.85}      & 21.25                                                                 \\
+\textit{Bank   marketing}                 & {\ul 91.17}      & {\ul 91.38}      & 5.13                                                                  \\
+\textit{Car evaluation}                   & 95.27            & 93.16            & 40.00                                                                 \\
+\textit{Adult}                            & {\ul 85.09}      & {\ul 84.55}      & 18.64                                                                 \\
+\textit{German}                           & {\ul 74.72}      & {\ul 74.31}      & 30.56                                                                
+\\\hline                                                              
+\end{tabular}
+\end{table}
+---
+
+[Project 2 An algorithms to reduce disparate mistreatment in classification using feature shrinkage](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
 
 
 

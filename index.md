@@ -8,23 +8,21 @@
 
 Experimental results of our method in different datasets from the UCI machine learning repository. 
 
-\begin{itemize}
-\item Compared to having all categorical predictors as un-clustered dummies, we have significantly reduced the complexity of the model (95\% reduction in some cases)
-\item Accuracy can be preserved or even improved
-\end{itemize}
+- Compared to having all categorical predictors as un-clustered dummies, we have significantly reduced the complexity of the model (95\% reduction in some cases)
+- Accuracy can be preserved or even improved
 
-| \multicolumn{1}{c}{\multirow{2}{*}{Name}} | \multicolumn{2}{c}{Accuracy ($\%$)} | \multicolumn{1}{c}{\multirow{2}{*}{Relative Complexity   ($\%$)}} |
+
+| Name | Accuracy ($\%$) | Relative Complexity   ($\%$) |
 |-------------------------------------------|-------------------------------------|-------------------------------------------------------------------|
-| \multicolumn{1}{c}{}                      | Original                            | Clustered                                                         | \multicolumn{1}{c}{} |
-| extit{Solar}                              | 83.89                               | 82.66                                                             | 29.41                |
-| \textit{Coil-2000}                        | {\ul 93.32}                         | {\ul 93.41}                                                       | 10.20                |
-| \textit{Nursery}                          | {\ul 100.00}                        | {\ul 100.00}                                                      | 38.89                |
-| \textit{Mushrooms}                        | {\ul 100.00}                        | {\ul 99.85}                                                       | 21.25                |
-| \textit{Bank   marketing}                 | {\ul 91.17}                         | {\ul 91.38}                                                       | 5.13                 |
-| \textit{Car evaluation}                   | 95.27                               | 93.16                                                             | 40.00                |
-| \textit{Adult}                            | {\ul 85.09}                         | {\ul 84.55}                                                       | 18.64                |
-| \textit{German}                           | {\ul 74.72}                         | {\ul 74.31}                                                       | 30.56                |
-
+|                       | Original                            | Clustered                                                         |
+| extit{Solar                              | 83.89                               | 82.66                                                             |
+| Coil-2000                        | 93.32                         | 93.41                                                       |
+| Nursery                          | 100.00                        | 100.00                                                      |
+| Mushrooms                        | 100.00                        | 99.85                                                       |
+| Bank   marketing                 | 91.17                         | 91.38                                                       |
+| Car evaluation                   | 95.27                               | 93.16                                                             |
+| Adult                            | 85.09                         | 84.55                                                       |
+| German                           | 74.72                         | 74.31   
 
 ---
 

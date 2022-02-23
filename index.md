@@ -5,11 +5,11 @@
 ### Machine Learning Research - Algorithms
 [Project 1 An algorithm to reduce the number of features in classification using clustering of the categories of categorical predictors](https://marcelagalvisres.github.io/clustcat/)
 
-- We significantly reduced the complexity (number of dummies to consider) of the model **60% to 95% reduction**, depending on the dataset
+- We significantly reduced the complexity (number of dummies to consider) of the model **60% to 95% reduction**
 - Accuracy is preserved or even improved
-- See publication available in [https://doi.org/10.1016/j.eswa.2021.115245/]
+- See publication available in [Expert Systems with Applications] (https://doi.org/10.1016/j.eswa.2021.115245/)
 
-_Figure 1: Accuracy for the original (not clustered) and clustered model and reduction in complexity for the clustered model_
+_Figure 1: Accuracy for the original and clustered model and reduction in complexity for the clustered model_
 <img src="images/effect_clust.jpeg?raw=true"/>
 
 ---
@@ -20,7 +20,7 @@ In this project, I desgined an algorithm that enhances the trade-off between acc
 - We optimize that trade-off using a parameter (&alpha;) that determines the weight given to Accuracy
 - The main advantage of our approach is that we find a less biased representation of the data, in some cases **even reducing disparate mistreatment to zero** 
 - The shrunk representation **does not harm accuracy**
-- See preprint: [https://www.researchgate.net/publication/358614960_Improving_fairness_of_Generalized_Linear_Models_by_feature_shrinkage/]
+- See preprint: [https://www.researchgate.net/publication/358614960_Improving_fairness_of_Generalized_Linear_Models_by_feature_shrinkage/] (https://www.researchgate.net/publication/358614960_Improving_fairness_of_Generalized_Linear_Models_by_feature_shrinkage/)
 
 _Figure 2: Accuracy, Unfairness and False Negative Rates for the protected (sex: female) and non-protected (sex: male) group in the Adult dataset using different values of the parameter &alpha;, compared to the original model_
 <img src="images/Adult_sex.jpeg?raw=true"/> 

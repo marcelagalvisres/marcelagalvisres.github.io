@@ -17,7 +17,9 @@ In this project I developed an algorithm that reduces the number of dummy variab
 
 [Project 2 An algorithms to reduce disparate mistreatment in classification using feature shrinkage](http://example.com/)
 
-In this project, I desgined an algorithm that enhances the trade-off between accuracy and unfairness in classification, by finding a shrunk representation of the features. The main advantage of our approach is that we find a less biased representation of the data, in some cases even reducing disparate mistreatment to zero, without harming accuracy. 
+In this project, I desgined an algorithm that enhances the trade-off between accuracy and unfairness in classification, by finding a shrunk representation of the features. 
+- The main advantage of our approach is that we find a less biased representation of the data, in some cases even reducing disparate mistreatment to zero, 
+- The shrunk representation does not harm accuracy
 
 
 <img src="images/Adult_sex.jpeg?raw=true"/> 

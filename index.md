@@ -16,7 +16,7 @@ In this project I developed an algorithm that reduces the number of dummy variab
 ---
 
 [Project 2 An algorithms to reduce disparate mistreatment in classification using feature shrinkage](http://example.com/)
-<img src="images/german.pdf?raw=true"/> 
+<img src="images/Adult_sex.jpeg?raw=true"/> 
 
 ---
 

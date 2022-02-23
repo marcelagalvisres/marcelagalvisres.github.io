@@ -20,7 +20,7 @@ _Figure 1: Accuracy for the original (not clustered) and clustered model and red
 
 In this project, I desgined an algorithm that enhances the trade-off between accuracy and unfairness in classification, by finding a shrunk representation of the features. 
 - We optimize that trade-off using a parameter (&alpha;) that determines the weight given to Accuracy
-- The main advantage of our approach is that we find a less biased representation of the data, in some cases **even reducing disparate mistreatment to zero**, 
+- The main advantage of our approach is that we find a less biased representation of the data, in some cases **even reducing disparate mistreatment to zero** 
 - The shrunk representation **does not harm accuracy**
 
 _Figure 2: Accuracy, Unfairness and False Negative Rates for the protected (sex: female) and non-protected (sex: male) group in the Adult dataset using different values of the parameter &alpha;, compared to the original model_

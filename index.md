@@ -7,7 +7,7 @@
 
 - We significantly reduced the complexity (number of dummies to consider) of the model **60% to 95% reduction**
 - Accuracy is preserved or even improved
-- See publication available in [Expert Systems with Applications](https://doi.org/0.1016/j.ewa.2021.115245/)
+- See publication available in [Expert Systems with Applications](https://doi.org/10.1016/j.eswa.2021.115245)
 
 
 _Figure 1: Accuracy for the original and clustered model and reduction in complexity for the clustered model_

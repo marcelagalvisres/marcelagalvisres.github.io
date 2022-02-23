@@ -15,7 +15,7 @@ _Figure 1: Accuracy for the original and clustered model and reduction in comple
 
 ---
 
-[Project 2 An algorithms to reduce disparate mistreatment in classification using feature shrinkage](http://example.com/)
+[Project 2 An algorithms to reduce disparate mistreatment in classification using feature shrinkage](https://www.researchgate.net/publication/358614960_Improving_fairness_of_Generalized_Linear_Models_by_feature_shrinkage)
 
 In this project, I desgined an algorithm that enhances the trade-off between accuracy and unfairness in classification, by finding a shrunk representation of the features. 
 - We optimize that trade-off using a parameter (&alpha;) that determines the weight given to Accuracy
@@ -25,13 +25,6 @@ In this project, I desgined an algorithm that enhances the trade-off between acc
 
 _Figure 2: Accuracy, Unfairness and False Negative Rates for the protected (sex: female) and non-protected (sex: male) group in the Adult dataset using different values of the parameter &alpha;, compared to the original model_
 <img src="images/Adult_sex.jpeg?raw=true"/> 
-
-
----
-## Data Science - Prediction applications
-[Prediction of school dropout in a developing country- How to use Machine Learning to help education authorities target students at risk of dropout]
-
-
 
 
 

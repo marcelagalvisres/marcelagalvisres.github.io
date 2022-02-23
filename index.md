@@ -11,7 +11,7 @@ Experimental results of our method in different datasets from the UCI machine le
 - Compared to having all categorical predictors as un-clustered dummies, we have significantly reduced the complexity of the model (95\% reduction in some cases)
 - Accuracy is preserved or even improved
 
-<img src="images/effect_clust.tiff?raw=true"/>
+<img src="images/effect_clust.jpeg?raw=true"/>
 
 ---
 

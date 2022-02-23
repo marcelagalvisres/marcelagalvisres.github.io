@@ -1,7 +1,6 @@
 ## Portfolio
 
 ---
-
 ### Machine Learning Research - Algorithms
 [Project 1 An algorithm to reduce the number of features in classification using clustering of the categories of categorical predictors](https://marcelagalvisres.github.io/clustcat/)
 

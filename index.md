@@ -5,7 +5,7 @@
 ### Machine Learning Research - Algorithms
 [Project 1 An algorithm to reduce the number of features in classification using clustering of the categories of categorical predictors](https://marcelagalvisres.github.io/clustcat/)
 
-- We significantly reduced the complexity (number of dummies to consider) of the model **60% to 95% reduction**
+- We significantly reduced the complexity (number of dummies to consider) of the logit model **60% to 95% reduction**
 - Accuracy is preserved or even improved
 - See publication available in [Expert Systems with Applications](https://doi.org/10.1016/j.eswa.2021.115245)
 

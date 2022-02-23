@@ -11,18 +11,7 @@ Experimental results of our method in different datasets from the UCI machine le
 - Compared to having all categorical predictors as un-clustered dummies, we have significantly reduced the complexity of the model (95\% reduction in some cases)
 - Accuracy can be preserved or even improved
 
-
-| | Accuracy (%) | Relative Complexity   (%) |
-|-------------------------------------------|-------------------------------------|-------------------------------------------------------------------|
-|  Name                       | Original                            | Clustered                                                         |
-| Solar                              | 83.89                               | 82.66                                                             |
-| Coil-2000                        | 93.32                         | 93.41                                                       |
-| Nursery                          | 100.00                        | 100.00                                                      |
-| Mushrooms                        | 100.00                        | 99.85                                                       |
-| Bank   marketing                 | 91.17                         | 91.38                                                       |
-| Car evaluation                   | 95.27                               | 93.16                                                             |
-| Adult                            | 85.09                         | 84.55                                                       |
-| German                           | 74.72                         | 74.31   
+<img src="images/effect_clust.png?raw=true"/>
 
 ---
 

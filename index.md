@@ -8,7 +8,7 @@
 
 In this project I developed an algorithm that reduces the number of dummy variables to consider when working with categorical predictors in classification. The algorithm was tested in several real-world datasets from the UCI Machine Learning repository. 
 
-- We significantly reduced the complexity of the model from **60% to 95% reduction** in the number of dummies to consider
+- We significantly reduced the complexity of the model (**60% to 95% reduction** depending on the dataset) in the number of dummies to consider
 - Accuracy is preserved or even improved
 
 _Figure 1: Accuracy for the original (not clustered) and clustered model and reduction in complexity for the clustered model_
@@ -19,10 +19,11 @@ _Figure 1: Accuracy for the original (not clustered) and clustered model and red
 [Project 2 An algorithms to reduce disparate mistreatment in classification using feature shrinkage](http://example.com/)
 
 In this project, I desgined an algorithm that enhances the trade-off between accuracy and unfairness in classification, by finding a shrunk representation of the features. 
-- The main advantage of our approach is that we find a less biased representation of the data, in some cases even reducing disparate mistreatment to zero, 
-- The shrunk representation does not harm accuracy
+- We optimize that trade-off using a parameter (&Alpha) that determines the weight given to Accuracy
+- The main advantage of our approach is that we find a less biased representation of the data, in some cases **even reducing disparate mistreatment to zero**, 
+- The shrunk representation **does not harm accuracy**
 
-_Figure 2: Accuracy, Unfairness and False Negative Rates for the protected (sex: female) and non-protected (sex: male) group in the Adult dataset using different values of the parameter alpha, compared to the original model_
+_Figure 2: Accuracy, Unfairness and False Negative Rates for the protected (sex: female) and non-protected (sex: male) group in the Adult dataset using different values of the parameter &Alpha, compared to the original model_
 <img src="images/Adult_sex.jpeg?raw=true"/> 
 
 

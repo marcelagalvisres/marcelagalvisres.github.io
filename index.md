@@ -16,7 +16,7 @@ Experimental results of our method in different datasets from the UCI machine le
 ---
 
 [Project 2 An algorithms to reduce disparate mistreatment in classification using feature shrinkage](http://example.com/)
-<img src="images/german.pdf?raw=true"/>
+<img src="images/german.pdf?raw=true"/> 
 
 ---
 

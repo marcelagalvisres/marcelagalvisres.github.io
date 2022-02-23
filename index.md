@@ -12,10 +12,10 @@ Experimental results of our method in different datasets from the UCI machine le
 - Accuracy can be preserved or even improved
 
 
-| Name | Accuracy ($\%$) | Relative Complexity   ($\%$) |
+| | Accuracy (%) | Relative Complexity   (%) |
 |-------------------------------------------|-------------------------------------|-------------------------------------------------------------------|
-|                       | Original                            | Clustered                                                         |
-| extit{Solar                              | 83.89                               | 82.66                                                             |
+|  Name                       | Original                            | Clustered                                                         |
+| Solar                              | 83.89                               | 82.66                                                             |
 | Coil-2000                        | 93.32                         | 93.41                                                       |
 | Nursery                          | 100.00                        | 100.00                                                      |
 | Mushrooms                        | 100.00                        | 99.85                                                       |

@@ -1,7 +1,7 @@
 ## Portfolio
 ---
 ## Machine Learning Research - Algorithms
-##[Project 1 An algorithm to reduce the number of features in classification using clustering of the categories of categorical predictors](https://marcelagalvisres.github.io/clustcat/)
+[Project 1 An algorithm to reduce the number of features in classification using clustering of the categories of categorical predictors](https://marcelagalvisres.github.io/clustcat/)
 
 - We significantly reduced the complexity (number of dummies to consider) of the logit model **60% to 95% reduction**
 - Accuracy is preserved or even improved
@@ -13,7 +13,7 @@ _Figure 1: Accuracy for the original and clustered model and reduction in comple
 
 ---
 
-##[Project 2 An algorithms to reduce disparate mistreatment in classification using feature shrinkage](https://www.researchgate.net/publication/358614960_Improving_fairness_of_Generalized_Linear_Models_by_feature_shrinkage)
+[Project 2 An algorithms to reduce disparate mistreatment in classification using feature shrinkage](https://www.researchgate.net/publication/358614960_Improving_fairness_of_Generalized_Linear_Models_by_feature_shrinkage)
 
 In this project, I desgined an algorithm that enhances the trade-off between accuracy and unfairness in classification, by finding a shrunk representation of the features. 
 - We optimize that trade-off using a parameter (&alpha;) that determines the weight given to Accuracy

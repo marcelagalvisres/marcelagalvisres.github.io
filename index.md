@@ -15,7 +15,7 @@
 - The plot shows that the Prediction algorithms _can save up to 24% of the costs_ associated with an educational intervention
 
 ---
-## Algorithms - Optmizing interpretability and fairness of machine learning models 
+## Algorithms - Optmizing the interpretability and fairness of machine learning models 
 ### [An algorithm to reduce the number of features in classification using clustering of the categories of categorical predictors](https://marcelagalvisres.github.io/clustcat/)
 
 - We significantly reduced the complexity (number of dummies to consider) of the logit model **60% to 95% reduction**

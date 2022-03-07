@@ -1,21 +1,21 @@
 ## Portfolio
-## Data Science- Can Machine Learning help reducing costs by better targeting students at risk of dropout?
+## Data Science- Can Machine Learning help reducing the costs of public interventions by better targeting students at risk of dropout?
 - I develop prediction models (Random Forests RF, Gradient Boosting Machines GBM, Logistic Regression LR) of school dropout using student administration data from Colombia.
 - The models **identify correctly between 60% and 80%** of the students who will dropout in the following year, with a **false positive rate between 23% and 32%**
   <img src="images/auc.PNG?raw=true"/> 
 - The models **can help education authorities target** their interventions by better selecting groups of students **with a high probability of dropout**
 - Assume three scenarios
-  - **Scenario 1:** target _all students in the highest dropout schools_ (above 75th percentile) in Grade 6
+  - **Scenario 1:** target _all students in the highest dropout schools_ (above 75th percentile)
   - **Scenario 2:** target _students with the highest probability_ of dropping out according to the Gradient Boosting Machines
   - **Scenario 3:** _within the schools in scenario 1, target students who have a higher probability_ of dropping out as estimated with Gradient Boosting Machines
 
 <img src="images/color_blind.png?raw=true"/> 
 
 - I compare these scenarios in terms of their **cost effectiveness** (cost per student retained) and **benefits** (lifetime earnings for a high school gradute)
-- _Prediction algorithms can save up to 24% of the costs_ associated with an intervention
+- The plot shows that the Prediction algorithms _can save up to 24% of the costs_ associated with an educational intervention
 
 ---
-## Algorithms - Optmizing machine learning algorithms to improve interpretability and fairness
+## Algorithms - Optmizing interpretability and fairness of machine learning models 
 ### [An algorithm to reduce the number of features in classification using clustering of the categories of categorical predictors](https://marcelagalvisres.github.io/clustcat/)
 
 - We significantly reduced the complexity (number of dummies to consider) of the logit model **60% to 95% reduction**

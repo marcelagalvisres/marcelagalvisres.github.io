@@ -30,8 +30,8 @@ _Figure 2: Accuracy, Unfairness and False Negative Rates for the protected (sex:
 ## Data Science project 
 ## Can Machine Learning help reducing costs by better targeting students at risk of dropout?
 - I develop prediction models of school dropout using student administration data from Colombia.
-- Performance
-<img src="images/auc.PNG?raw=true"/> 
+- The models **identify correctly between 60% and 80%** of the students who will dropout in the following year, with a **false positive rate between 23% and 32%**
+  <img src="images/auc.PNG?raw=true"/> 
 - We can _help education authorities target_ their interventions (select groups of students) _to prevent school dropout_
 - I assume several scenarios
   - **Scenario 1:** target all students in the highest dropout schools (above 75th percentile) in Grade 6

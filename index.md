@@ -2,18 +2,19 @@
 ## Data Science- Can Machine Learning help reducing the costs of public interventions by better targeting students at risk of dropout?
 - I develop **prediction models** (_Random Forests RF, Gradient Boosting Machines GBM, Logistic Regression LR_) of **school dropout** using student administrative data from Colombia.
 - The models **identify correctly between 60% and 80%** of the students who will dropout in the following year, with a **false positive rate between 23% and 32%**
-  <figure><img src="images/auc.PNG?raw=true"/> 
-  <figcaption> Out-of-sample AUC for the prediction methods LR, RF, GBM by grade, 2019 </figcaption>
-  <figure>
+  _Figure 1: Out-of-sample AUC for the prediction methods LR, RF, GBM by grade, 2019_
+  <img src="images/auc.PNG?raw=true"/> 
+  
+ 
   
 - The models **can help education authorities target** their interventions by better selecting groups of students **with a high probability of dropout**
 - Assume three scenarios
   - **Scenario 1:** target _all students in the highest dropout schools_ (above 75th percentile)
   - **Scenario 2:** target _students with the highest probability_ of dropping out according to the Gradient Boosting Machines
   - **Scenario 3:** _within the schools in scenario 1, target students who have a higher probability_ of dropping out as estimated with Gradient Boosting Machines
-
+_Figure2: Costs (bars) and benefits (line) per student retained of an intervention to prevent school dropout in different scenarios and levels of effectiveness
+_
 <img src="images/color_blind.png?raw=true"/> 
-Figure: Costs (bars) and benefits (line) per student retained of an intervention to prevent school dropout in different scenarios and levels of effectiveness
 
 - I compare these scenarios in terms of their **cost effectiveness** (cost per student retained) and **benefits** (lifetime earnings for a high school gradute)
 - The plot shows that the Prediction algorithms _can save up to 24% of the costs_ associated with an educational intervention
@@ -27,7 +28,7 @@ Figure: Costs (bars) and benefits (line) per student retained of an intervention
 - See publication available in [Expert Systems with Applications](https://doi.org/10.1016/j.eswa.2021.115245)
 
 
-_Figure 1: Accuracy for the original and clustered model and reduction in complexity for the clustered model_
+_Figure 3: Accuracy for the original and clustered model and reduction in complexity for the clustered model_
 <img src="images/effect_clust.jpeg?raw=true"/>
 
 ---
@@ -40,7 +41,7 @@ _Figure 1: Accuracy for the original and clustered model and reduction in comple
 - The shrunk representation **does not harm accuracy**
 - See preprint: [ResearchGate](https://www.researchgate.net/publication/358614960_Improving_fairness_of_Generalized_Linear_Models_by_feature_shrinkage)
 
-_Figure 2: Accuracy, Unfairness and False Negative Rates for the protected (sex: female) and non-protected (sex: male) group in the Adult dataset using different values of the parameter &alpha;, compared to the original model_
+_Figure 4: Accuracy, Unfairness and False Negative Rates for the protected (sex: female) and non-protected (sex: male) group in the Adult dataset using different values of the parameter &alpha;, compared to the original model_
 <img src="images/Adult_sex.jpeg?raw=true"/> 
 
 

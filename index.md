@@ -1,5 +1,5 @@
 ## Portfolio
-## Data Science project 
+## Data Science
 ## Can Machine Learning help reducing costs by better targeting students at risk of dropout?
 - I develop prediction models of school dropout using student administration data from Colombia.
 - The models **identify correctly between 60% and 80%** of the students who will dropout in the following year, with a **false positive rate between 23% and 32%**
@@ -15,7 +15,7 @@
 Prediction algorithms can save up to 24% of the costs associated with an intervention
 
 ---
-## Machine Learning Research - Algorithms
+## Algorithms
 ### [An algorithm to reduce the number of features in classification using clustering of the categories of categorical predictors](https://marcelagalvisres.github.io/clustcat/)
 
 - We significantly reduced the complexity (number of dummies to consider) of the logit model **60% to 95% reduction**

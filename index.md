@@ -2,8 +2,8 @@
 ## Data Science- Can Machine Learning help reducing the costs of public interventions by better targeting students at risk of dropout?
 - I develop **prediction models** (_Random Forests RF, Gradient Boosting Machines GBM, Logistic Regression LR_) of **school dropout** using student administrative data from Colombia.
 - The models **identify correctly between 60% and 80%** of the students who will dropout in the following year, with a **false positive rate between 23% and 32%**
-  <img src="images/auc.PNG?raw=true"/> 
-  <figcaption>Out-of-sample AUC for the prediction methods LR, RF, GBM by grade, 2019</figcaption>
+  <figure><img src="images/auc.PNG?raw=true"/> 
+  <figcaption>Out-of-sample AUC for the prediction methods LR, RF, GBM by grade, 2019</figcaption><figure>
   
 - The models **can help education authorities target** their interventions by better selecting groups of students **with a high probability of dropout**
 - Assume three scenarios

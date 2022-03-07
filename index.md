@@ -32,11 +32,11 @@ _Figure 2: Accuracy, Unfairness and False Negative Rates for the protected (sex:
 - I develop prediction models of school dropout using student administration data from Colombia.
 - Performance
 <img src="images/auc.PNG?raw=true"/> 
-- We can help education authorities target their interventions (select groups of students) to prevent school dropout
+- We can _help education authorities target_ their interventions (select groups of students) _to prevent school dropout_
 - I assume several scenarios
-  - Scenario 1: target all students in the highest dropout schools (above 75th percentile) in Grade 6
-  - Scenario 2: target students with the highest probability of dropping out according to the Gradient Boosting Machines
-  - Scenario 3: within the schools in scenario 1, target students who have a higher probability of dropping out as estimated with Gradient Boosting Machines
+  - **Scenario 1:** target all students in the highest dropout schools (above 75th percentile) in Grade 6
+  - **Scenario 2:** target students with the highest probability of dropping out according to the Gradient Boosting Machines
+  - **Scenario 3:** within the schools in scenario 1, target students who have a higher probability of dropping out as estimated with Gradient Boosting Machines
 
 <img src="images/color_blind.png?raw=true"/> 
 

@@ -29,5 +29,5 @@ _Figure 2: Accuracy, Unfairness and False Negative Rates for the protected (sex:
 ---
 ## Data Science projects 
 ## Prediction of School Dropout using Machine Learning
-
+<img src="images/color_blind.png?raw=true"/> 
 

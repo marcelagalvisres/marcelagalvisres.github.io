@@ -1,18 +1,19 @@
 ## Portfolio
 ## Data Science
 ## Can Machine Learning help reducing costs by better targeting students at risk of dropout?
-- I develop prediction models of school dropout using student administration data from Colombia.
+- I develop prediction models (Random Forests RF, Gradient Boosting Machines GBM, Logistic Regression LR) of school dropout using student administration data from Colombia.
 - The models **identify correctly between 60% and 80%** of the students who will dropout in the following year, with a **false positive rate between 23% and 32%**
   <img src="images/auc.PNG?raw=true"/> 
-- We can _help education authorities target_ their interventions (select groups of students) _to prevent school dropout_
-- I assume several scenarios
-  - **Scenario 1:** target all students in the highest dropout schools (above 75th percentile) in Grade 6
-  - **Scenario 2:** target students with the highest probability of dropping out according to the Gradient Boosting Machines
-  - **Scenario 3:** within the schools in scenario 1, target students who have a higher probability of dropping out as estimated with Gradient Boosting Machines
+- The models **can help education authorities target** their interventions by better selecting groups of students **with a high probability of dropout**
+- Assume three scenarios
+  - **Scenario 1:** target _all students in the highest dropout schools_ (above 75th percentile) in Grade 6
+  - **Scenario 2:** target _students with the highest probability_ of dropping out according to the Gradient Boosting Machines
+  - **Scenario 3:** _within the schools in scenario 1, target students who have a higher probability_ of dropping out as estimated with Gradient Boosting Machines
 
 <img src="images/color_blind.png?raw=true"/> 
 
-Prediction algorithms can save up to 24% of the costs associated with an intervention
+- I compare these scenarios in terms of their **cost effectiveness** (cost per student retained) and **benefits** (lifetime earnings for a high school gradute)
+- _Prediction algorithms can save up to 24% of the costs_ associated with an intervention
 
 ---
 ## Algorithms

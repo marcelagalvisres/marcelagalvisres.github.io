@@ -1,6 +1,5 @@
 ## Portfolio
-## Data Science
-## Can Machine Learning help reducing costs by better targeting students at risk of dropout?
+## Data Science- Can Machine Learning help reducing costs by better targeting students at risk of dropout?
 - I develop prediction models (Random Forests RF, Gradient Boosting Machines GBM, Logistic Regression LR) of school dropout using student administration data from Colombia.
 - The models **identify correctly between 60% and 80%** of the students who will dropout in the following year, with a **false positive rate between 23% and 32%**
   <img src="images/auc.PNG?raw=true"/> 
@@ -16,7 +15,7 @@
 - _Prediction algorithms can save up to 24% of the costs_ associated with an intervention
 
 ---
-## Algorithms
+## Algorithms - Optmizing machine learning algorithms to improve interpretability and fairness
 ### [An algorithm to reduce the number of features in classification using clustering of the categories of categorical predictors](https://marcelagalvisres.github.io/clustcat/)
 
 - We significantly reduced the complexity (number of dummies to consider) of the logit model **60% to 95% reduction**
